@@ -1,15 +1,10 @@
-package net.atlaspvp.atlasutils.listeners;
+package xyz.fragmentmc.fragmentfps.listeners;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.events.*;
-import net.atlaspvp.atlasutils.AtlasUtils;
-import net.atlaspvp.atlasutils.features.FPS;
-import org.bukkit.Bukkit;
+import xyz.fragmentmc.fragmentfps.features.FPS;
 import org.bukkit.entity.EntityType;
 import org.bukkit.plugin.Plugin;
-
-import java.util.HashSet;
-import  java.util.Set;
 
 import java.util.UUID;
 

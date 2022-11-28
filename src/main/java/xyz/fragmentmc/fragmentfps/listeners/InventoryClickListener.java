@@ -1,12 +1,10 @@
-package net.atlaspvp.atlasutils.listeners;
+package xyz.fragmentmc.fragmentfps.listeners;
 
-import com.comphenix.protocol.events.ListenerPriority;
-import net.atlaspvp.atlasutils.features.FPS;
+import xyz.fragmentmc.fragmentfps.features.FPS;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 

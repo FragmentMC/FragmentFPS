@@ -1,18 +1,13 @@
-package net.atlaspvp.atlasutils;
+package xyz.fragmentmc.fragmentfps;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
-import net.atlaspvp.atlasutils.features.FPS;
-import net.atlaspvp.atlasutils.listeners.FPSAdapter;
-import net.atlaspvp.atlasutils.listeners.InventoryClickListener;
-import org.bukkit.configuration.file.YamlConfiguration;
+import xyz.fragmentmc.fragmentfps.features.FPS;
+import xyz.fragmentmc.fragmentfps.listeners.FPSAdapter;
+import xyz.fragmentmc.fragmentfps.listeners.InventoryClickListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.io.InputStreamReader;
-import java.util.Map;
-import java.util.Set;
-
-public final class AtlasUtils extends JavaPlugin {
+public final class FragmentFPS extends JavaPlugin {
     private ProtocolManager protocolManager;
 
     @Override
