@@ -23,21 +23,21 @@ commands:
   sandtoggle:
     decription: Toggle FallingBlock Visibility
     usage: /<command>
-    aliases: [ togglesand, fallingtoggle, fallingblocktoggle, togglefalling, togglefallingblock ]
+    aliases: [ togglesand, fallingblocktoggle, togglefallingblock ]
     permission: fps.sandtoggle
   explosiontoggle:
     decription: Toggle Explosion Visibility
     usage: /<command>
-    aliases: [ particletoggle, etoggle, explosiont, particlet, ptoggle, toggleparticles, toggleexplosions ]
+    aliases: [ particletoggle, toggleparticles, toggleexplosions ]
     permission: fps.explosiontoggle
   maxfps:
     decription: Toggle All FPS Settings
     usage: /<command>
-    aliases: [ toggleall, alltoggle, fpsmax ]
+    aliases: [ toggleall, fpsmax ]
     permission: fps.maxfps
 
   reload:
     decription: Reload FragmentFPS Config
     usage: /<command>
-    aliases: [ aureload, reloadau, atlasutilsreload, reloadatlasutils ]
+    aliases: [ ffreload, fragmentfpsreload ]
     permission: fps.reload
