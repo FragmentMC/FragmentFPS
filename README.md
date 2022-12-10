@@ -3,7 +3,7 @@
 
 # Features:
 ## Config:
-Found in your plugins folder at AtlasUtils/config.yml
+Found in your plugins folder at FragmentFps/config.yml
 
 Command | Permission
 - /reload (fps.reload)
