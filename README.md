@@ -1,5 +1,5 @@
 # FragmentFPS
-1.19.2 Plugin for cannoning fps improvements.
+1.20.1 Plugin for cannoning fps improvements.
 
 # Features:
 ## Config:
@@ -20,3 +20,4 @@ Command | Permission
 
 # Dependencies:
 ProtocolLib: https://www.spigotmc.org/resources/protocollib.1997/
+(Currently 1.20.1 is only supported in development builds.)

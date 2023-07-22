@@ -1,9 +1,9 @@
 name: FragmentFPS
 version: '${project.version}'
 main: xyz.fragmentmc.fragmentfps.FragmentFPS
-api-version: 1.19
+api-version: 1.20
 authors: [ jesus_is_hot ]
-description: 1.19.2 Plugin for cannoning fps improvements.
+description: 1.20.1 Plugin for cannoning fps improvements.
 website: fragmentmc.xyz
 
 depend:
