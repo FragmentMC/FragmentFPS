@@ -13,10 +13,6 @@ Per Player toggle TNT and FallingBlock Visibility for TNT Cannons.
 
 Command | Permission
 - /fps (fps.fps)
-- /tnttoggle (fps.tnttoggle)
-- /sandtoggle (fps.sandtoggle)
-- /explosiontoggle (fps.explosiontoggle)
-- /maxfps (fps.maxfps)
 
 # Dependencies:
 ProtocolLib: https://www.spigotmc.org/resources/protocollib.1997/
