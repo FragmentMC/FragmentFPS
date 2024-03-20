@@ -16,7 +16,7 @@ public final class FragmentFPS extends JavaPlugin {
 
         FPS fps = new FPS(this.getConfig());
         FPSAdapter adapter = new FPSAdapter(this, fps);
-        InventoryClickListener clickgui = new InventoryClickListener(fps);
+        InventoryClickListener clickgui = new InventoryClickListener(fps, this);
 
         protocolManager = ProtocolLibrary.getProtocolManager();
         protocolManager.addPacketListener(adapter);
@@ -24,10 +24,6 @@ public final class FragmentFPS extends JavaPlugin {
         getServer().getPluginManager().registerEvents(clickgui, this);
 
         getCommand("fps").setExecutor(fps);
-        getCommand("tnttoggle").setExecutor(fps);
-        getCommand("sandtoggle").setExecutor(fps);
-        getCommand("explosiontoggle").setExecutor(fps);
-        getCommand("maxfps").setExecutor(fps);
 
         getCommand("reload").setExecutor(new Config(this));
     }

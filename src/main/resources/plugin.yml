@@ -15,27 +15,6 @@ commands:
     usage: /<command>
     aliases: [ fpssettings, fpsgui ]
     permission: fps.fps
-  tnttoggle:
-    decription: Toggle TNT Visibility
-    usage: /<command>
-    aliases: [ toggletnt ]
-    permission: fps.tnttoggle
-  sandtoggle:
-    decription: Toggle FallingBlock Visibility
-    usage: /<command>
-    aliases: [ togglesand, fallingblocktoggle, togglefallingblock ]
-    permission: fps.sandtoggle
-  explosiontoggle:
-    decription: Toggle Explosion Visibility
-    usage: /<command>
-    aliases: [ particletoggle, toggleparticles, toggleexplosions ]
-    permission: fps.explosiontoggle
-  maxfps:
-    decription: Toggle All FPS Settings
-    usage: /<command>
-    aliases: [ toggleall, fpsmax ]
-    permission: fps.maxfps
-
   reload:
     decription: Reload FragmentFPS Config
     usage: /<command>
